@@ -10,7 +10,7 @@ from rest_framework.response import Response
 from rest_framework import status
 
 
-class TokenObtainPairView(TokenObtainPairView):
+class MyTokenObtainPairView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
 
 class RegisterView(generics.CreateAPIView):
